@@ -1,2 +1,4 @@
-# ESN
-Echo state network
+# ESN (Echo State Netoworks)
+As a class of Reservoir Computing model, Echo State Networks accurately track and predict time series data by Machine Learning techniques. The realizations of the reservoirs in real-world applications are various, such as object recognition, speech recognition, robotic movement control, dynamic pattern classification, and chaotic time-series generation etc.
+
+Through this research, we create, develop and implement a family of predictably optimal robust and stable ensemble of Echo State Networks via regularizing the training and perturbing the input. Furthermore, constructing several distributions of weights based on the shape to see if the shape of the distribution has the impact for reducing the error. ESN can track in short term for most dataset, but it collapses in the long run. Shortterm tracking with large size reservoir enables ESN to perform strikingly with superior prediction. Based on this scenario, we go a further step to aggregate many of ESNs into an ensemble to lower the variance and stabilize the system.
