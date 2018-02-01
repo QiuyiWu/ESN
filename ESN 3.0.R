@@ -84,10 +84,6 @@ Y3t<-as.factor(predict(mod3, Xtotal[2001:4000,], type = 'class'))
 
 
 
-library(boot)
-help(boot)
-
-
 
 
 
